@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.lin.entity.order.Order" table="order" catalog="db_shop">
+        <id name="orderId" type="java.lang.String">
+            <column name="orderId" length="30" />
+            <generator class="assigned"></generator>
+        </id>
+        <many-to-one name="customer" class="com.lin.entity.customer.Customer" fetch="join">
+            <column name="customerId" />
+        </many-to-one>
+        <property name="consignee" type="java.lang.String">
+            <column name="consignee" length="50" not-null="true" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="address" length="200" not-null="true" />
+        </property>
+        <property name="postcode" type="java.lang.String">
+            <column name="postcode" length="10" />
+        </property>
+        <property name="mobile" type="java.lang.String">
+            <column name="mobile" length="11" not-null="true" />
+        </property>
+        <property name="totalPrice" type="java.lang.Float">
+            <column name="totalPrice" precision="12" scale="0" />
+        </property>
+        <property name="itemAmount" type="java.lang.Integer">
+            <column name="itemAmount" />
+        </property>
+        <property name="createTime" type="java.util.Date">
+            <column name="createTime" length="6" />
+        </property>
+        <property name="payTime" type="java.util.Date">
+            <column name="payTime" length="6" />
+        </property>
+        <property name="orderState" type="java.lang.String">
+            <column name="orderState" length="10" />
+        </property>
+        <set name="orderitems" inverse="true" cascade="all" lazy="false" order-by="id desc">
+            <key>
+                <column name="orderId" length="30" />
+            </key>
+            <one-to-many class="com.lin.entity.order.Orderitem" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,3 @@
+用户首页：http://localhost/shopping/home.action
+
+管理员登陆：http://localhost/shopping/manager/manager_toLogin.action

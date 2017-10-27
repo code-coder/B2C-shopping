@@ -1,0 +1,486 @@
+
+ul,li{
+	list-style:none;
+}
+
+.catbox {
+    margin: 40px auto;
+}
+
+.catbox table {
+    text-align: center;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+}
+
+.catbox table th {
+    background: #e2f2ff;
+    border-top: 3px solid #a7cbff;
+    height: 30px;
+    text-align:center;
+}
+
+.catbox table th,.catbox table td {
+    border: 1px solid #CADEFF;
+}
+
+.catbox input[type=checkbox]{
+	margin:0;
+}
+.check-all {
+    vertical-align: middle;
+    margin: 0;
+}
+
+td,
+th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.catbox table td {
+    padding: 8px;
+    color: #444;
+}
+
+.ckbox{width:60px;}
+
+
+.goods {
+    width: 200px;
+    padding:6px;
+}
+
+.goods img {
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    float: left;
+}
+
+.goods span {
+    width: 180px;
+    margin-top: 20px;
+    text-align: left;
+    float: left;
+}
+
+.unit-price {
+    width: 80px;
+}
+
+.count {
+    width: 100px;
+}
+
+.count .add,
+.count input,
+.count .reduce {
+    float: left;
+    margin-left: -1px;
+    position: relative;
+    z-index: 0;
+}
+
+.count .add,
+.count .reduce {
+    height: 23px;
+    width: 17px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+    cursor: pointer;
+}
+
+.count input {
+    width: 50px;
+    height: 23px;
+    line-height: 15px;
+    border: 1px solid #aaa;
+    color: #343434;
+    text-align: right;
+    padding: 4px 0;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.subtotal {
+    width: 80px;
+    color: red;
+    font-weight: bold;
+}
+
+.foot {
+    margin-top: 0px;
+    color: #666;
+    height: 48px;
+    border-top: 0;
+    position: relative;
+    z-index: 8;
+}
+
+.foot .select-all {
+    width: 80px;
+    height: 48px;
+    line-height: 48px;
+    color: #666;
+    text-align: center;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.foot div,
+.foot a {
+    line-height: 48px;
+    height: 48px;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.foot .delete {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.foot .closing {
+	padding:5px;
+    width: 103px;
+    text-align: center;
+    color: #666;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.foot .total {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.foot #priceTotal,
+.foot #selectedTotal {
+    color: red;
+    font-family: "Microsoft Yahei";
+    font-weight: bold;
+}
+
+.foot .selected {
+    cursor: pointer;
+}
+
+.foot .selected .arrow {
+    position: relative;
+    top: -3px;
+    margin-left: 3px;
+}
+
+.cart-mainBody {
+    
+    text-align: center;
+}
+
+/*                 order-evaluate                */
+
+.w {
+        width: 1210px;
+    }
+    
+    .mycomment-form {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .mycomment-form .f-item {
+        padding-left: 323px;
+        border-top: 1px solid #e4e4e4;
+        margin-top: -1px;
+        margin-bottom: 1px;
+        overflow: hidden;
+        background: #fff;
+    }
+    
+    .mycomment-form .fi-info {
+        float: left;
+        width: 322px;
+        border-right: 1px solid #f5f5f5;
+        margin-left: -323px;
+        padding-bottom: 4000px;
+        margin-bottom: -4000px;
+        _display: inline;
+    }
+    
+    .comment-goods {
+        padding: 55px 50px;
+    }
+    
+    .comment-goods .p-img {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .comment-goods .p-img img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .comment-goods .p-name,
+    .comment-goods .p-price {
+        width: 100%;
+        line-height: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .comment-goods .p-price strong {
+        font-family: verdana;
+    }
+    
+    .comment-goods .p-attr {
+        width: 100%;
+        line-height: 20px;
+        text-align: center;
+        color: #999;
+    }
+    
+    .mycomment-form .fi-operate {
+        float: left;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 4000px;
+        margin-bottom: -4000px;
+    }
+    
+    .mycomment-form .f-goods .z-tip-warn {
+        padding-top: 70px;
+    }
+    
+    .mycomment-form .fop-item.fop-star {
+        height: 16px;
+        padding-top: 30px;
+        margin-top: -30px;
+    }
+    
+    .mycomment-form .z-tip-warn {
+        position: relative;
+    }
+    
+    .mycomment-form .fop-item {
+        float: left;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    
+    .mycomment-form .fop-item.fop-star .fop-label {
+        height: 16px;
+        line-height: 16px;
+    }
+    
+    .mycomment-form .fop-label {
+        float: left;
+        width: 80px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 20px;
+        margin-left: 40px;
+        _display: inline;
+        overflow: hidden;
+    }
+    
+    .mycomment-form .fop-main {
+        float: left;
+        width: 487px;
+        margin-right: 40px;
+    }
+    
+    .mycomment-form .fop-main {
+        width: 707px;
+    }
+    
+    .commstar {
+        position: relative;
+        display: inline-block;
+        width: 80px;
+        height: 16px;
+        vertical-align: top;
+        margin-right: 30px;
+        background: url(../images/commstar.png) 0 0 repeat-x;
+    }
+    
+    .commstar .star1 {
+        width: 20%;
+        z-index: 6;
+    }
+    
+    .commstar .star2 {
+        width: 40%;
+        z-index: 5;
+    }
+    
+    .commstar .star3 {
+        width: 60%;
+        z-index: 4;
+    }
+    
+    .commstar .star4 {
+        width: 80%;
+        z-index: 3;
+    }
+    
+    .commstar .star5 {
+        width: 100%;
+        z-index: 2;
+    }
+    
+    .commstar .star {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20%;
+        height: 16px;
+        cursor: pointer;
+    }
+    
+    .commstar .star-info {
+        position: absolute;
+        right: -30px;
+        top: 0;
+        width: 30px;
+        height: 16px;
+        line-height: 16px;
+        text-align: right;
+        color: #999;
+    }
+    
+    .mycomment-form .fop-item {
+        float: left;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    
+    .mycomment-form .fop-label {
+        float: left;
+        width: 80px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 20px;
+        margin-left: 40px;
+        _display: inline;
+        overflow: hidden;
+    }
+    
+    .mycomment-form .fop-main {
+        width: 707px;
+    }
+    
+    .mycomment-form .fop-main {
+        float: left;
+        width: 187px;
+        margin-right: 40px;
+    }
+    
+    .mycomment-form .f-textarea {
+        width: 700px;
+    }
+    
+    .mycomment-form .f-textarea {
+        float: left;
+        width: 485px;
+        border: 1px solid #e0e0e0;
+        margin-bottom: 10px;
+    }
+    
+    .mycomment-form .f-textarea textarea {
+        float: left;
+        width: 465px;
+        height: 18px;
+        line-height: 18px;
+        padding: 10px;
+        border: medium none;
+        color: #333;
+        resize: vertical;
+    }
+    
+    .mycomment-form .f-textarea .textarea-ext {
+        float: left;
+        width: 465px;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+        text-align: right;
+        color: #999;
+        background: #f5f5f5;
+    }
+    
+    .mycomment-form .f-imgshow {
+        float: left;
+        width: 100%;
+    }
+    
+    .m-imgshow .thumbnail-list {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: -10px;
+    }
+    
+    .m-imgshow .btn-upload {
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background: url(../images/bg-upload.png) no-repeat center top;
+        cursor: pointer;
+    }
+    
+    .m-imgshow .upload-num {
+        float: left;
+        height: 50px;
+        margin-bottom: 10px;
+        font-family: SimSun;
+        line-height: 50px;
+        color: #999;
+    }
+    .mycomment-form .f-btnbox {
+        position: relative;
+        width: 100%;
+        height: 48px;
+        padding: 30px 0 40px;
+        border-bottom: 1px solid #e6e6e6;
+        text-align: center;
+    }
+    .mycomment-form .f-btnbox .btn-submit {
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        color: #fff;
+        border-radius: 3px;
+        background-color: #40c4b2;
+    }
+    .mycomment-form .f-btnbox .btn-submit {
+        width: 220px;
+        height: 48px;
+        line-height: 48px;
+        padding: 0;
+        font-family: "Microsoft YaHei";
+        font-size: 18px;
+    }
+    
+    
+
+ 

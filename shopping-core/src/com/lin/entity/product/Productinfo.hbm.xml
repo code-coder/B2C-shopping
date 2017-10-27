@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.lin.entity.product.Productinfo" table="productinfo" catalog="db_shop">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <many-to-one name="productCategory" class="com.lin.entity.product.Productcategory" fetch="join" lazy="false" >
+            <column name="productCategoryId" />
+        </many-to-one>
+        
+        <set name="uploadfiles" inverse="true" fetch="join" lazy="false" order-by="iscover desc" >
+            <key>
+                <column name="productid" not-null="true" />
+            </key>
+            <one-to-many class="com.lin.entity.product.Uploadfile" />
+            
+        </set>
+		
+		
+        <property name="name" type="java.lang.String">
+            <column name="name" length="100" not-null="true" />
+        </property>
+        <property name="subName" type="java.lang.String">
+            <column name="subname" length="100" />
+        </property>
+        <property name="sellTime" type="java.util.Date">
+            <column name="sellTime"  />
+        </property>
+        <property name="sellOutTime" type="java.util.Date">
+            <column name="sellOutTime"  />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="description" length="65535" />
+        </property>
+        <property name="baseprice" type="java.lang.Float">
+            <column name="baseprice" precision="2" scale="0" />
+        </property>
+        <property name="sellprice" type="java.lang.Float">
+            <column name="sellprice" precision="2" scale="0" />
+        </property>
+        <property name="star" type="java.lang.Float">
+            <column name="star" precision="2" scale="0" />
+        </property>
+        <property name="clickcount" type="java.lang.Integer">
+            <column name="clickcount" />
+        </property>
+        <property name="homeIndex" type="java.lang.Integer">
+            <column name="homeIndex" />
+        </property>
+        <property name="isNew" type="java.lang.Integer">
+            <column name="isNew" />
+        </property>
+        <property name="isHot" type="java.lang.Integer">
+            <column name="isHot" />
+        </property>
+        <property name="sellcount" type="java.lang.Integer">
+            <column name="sellcount" />
+        </property>
+        <set name="consultations" inverse="true" fetch="join" cascade="all">
+            <key>
+                <column name="productId" />
+            </key>
+            <one-to-many class="com.lin.entity.product.Consultation"/>
+        </set>
+    </class>
+</hibernate-mapping>

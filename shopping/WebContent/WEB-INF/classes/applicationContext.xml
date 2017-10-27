@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+	<context:annotation-config />
+	<context:component-scan base-package="com.lin" />
+
+	<!-- 定义数据源的信息 -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass">
+			<value>com.mysql.jdbc.Driver</value>
+		</property>
+		<property name="jdbcUrl">
+			<!-- 不能回车断开 -->
+			<value>jdbc:mysql://localhost/db_shop?useUnicode=true&amp;characterEncoding=UTF-8</value>
+		</property>
+		<property name="user">
+			<value>root</value>
+		</property>
+		<property name="password">
+			<value>123456</value>
+		</property>
+		<property name="maxPoolSize">
+			<value>80</value>
+		</property>
+		<property name="minPoolSize">
+			<value>1</value>
+		</property>
+		<property name="initialPoolSize">
+			<value>1</value>
+		</property>
+		<property name="maxIdleTime">
+			<value>20</value>
+		</property>
+	</bean>
+
+	<!--定义Hibernate的SessionFactory -->
+	<!-- SessionFactory使用的数据源为上面的数据源 -->
+	<!-- 指定了Hibernate的映射文件和配置信息 -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref local="dataSource" />
+		</property>
+		<property name="mappingResources">
+			<list>
+				<value>com/lin/entity/manager/Manager.hbm.xml</value>
+				<value>com/lin/entity/customer/Customer.hbm.xml</value>
+				<value>com/lin/entity/customer/HeadPortrait.hbm.xml</value>
+				<value>com/lin/entity/order/Orderitem.hbm.xml</value>
+				<value>com/lin/entity/order/Order.hbm.xml</value>
+				<value>com/lin/entity/customer/ShoppingAddress.hbm.xml</value>
+				<value>com/lin/entity/cart/Cart.hbm.xml</value>
+				<value>com/lin/entity/cart/Cartitem.hbm.xml</value>
+				<value>com/lin/entity/account/Account.hbm.xml</value>
+				<value>com/lin/entity/account/Tradingitem.hbm.xml</value>
+				<value>com/lin/entity/product/Secondcategory.hbm.xml</value>
+				<value>com/lin/entity/product/Category.hbm.xml</value>
+				<value>com/lin/entity/product/Productcategory.hbm.xml</value>
+				<value>com/lin/entity/product/Productinfo.hbm.xml</value>
+				<value>com/lin/entity/product/Uploadfile.hbm.xml</value>
+				<value>com/lin/entity/product/Consultation.hbm.xml</value>
+
+
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="show_sql">true</prop>
+				<prop key="hibernate.jdbc.batch_size">20</prop>
+			</props>
+		</property>
+	</bean>
+	<!-- 配置事务管理器 -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<!-- 根据Annotation来生成事务代理 -->
+	<tx:annotation-driven transaction-manager="transactionManager" />
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="get*" read-only="true" rollback-for="Exception" propagation="REQUIRED" />
+			<tx:method name="save*" rollback-for="Exception" propagation="REQUIRED"/>
+			<tx:method name="update*" propagation="REQUIRED"/>
+			<tx:method name="req*" propagation="REQUIRED"/>
+			<tx:method name="reqNew*" propagation="REQUIRES_NEW" rollback-for="Exception"/>
+		</tx:attributes>
+	</tx:advice>
+
+	<aop:config>
+		<aop:pointcut id="userServicePT"
+			expression="execution(* com.lin.service.*.*(..))" />
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="userServicePT" />
+	</aop:config>
+	
+	<!-- 定义Hibernate模板对象 -->
+	<!-- <bean id="template" class="org.springframework.orm.hibernate3.HibernateTemplate"> 
+		<property name="sessionFactory" ref="sessionFactory" /> </bean> -->
+
+	<bean id="daoTemplate" abstract="true">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="managerDao" class="com.lin.dao.manager.ManagerDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="customerDao" class="com.lin.dao.customer.CustomerDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="headPortraitDao" class="com.lin.dao.customer.HeadPortraitDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="cartDao" class="com.lin.dao.cart.CartDaoImpl" parent="daoTemplate"></bean>
+	<bean id="cartitemDao" class="com.lin.dao.cart.CartitemDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="accountDao" class="com.lin.dao.account.AccountDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="tradingitemDao" class="com.lin.dao.account.TradingitemDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="orderDao" class="com.lin.dao.order.OrderDaoImpl" parent="daoTemplate"></bean>
+	<bean id="orderitemDao" class="com.lin.dao.order.OrderitemDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="shoppingAddressDao" class="com.lin.dao.customer.ShoppingAddressDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="categoryDao" class="com.lin.dao.product.CategoryDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="productcategoryDao" class="com.lin.dao.product.ProductcategoryDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="secondcategoryDao" class="com.lin.dao.product.SecondcategoryDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="productDao" class="com.lin.dao.product.ProductDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="uploadFileDao" class="com.lin.dao.product.UploadFileDaoImpl"
+		parent="daoTemplate"></bean>
+	<bean id="consultationDao" class="com.lin.dao.product.ConsultationDaoImpl"
+		parent="daoTemplate"></bean>
+
+	<!-- more bean definitions go here -->
+
+</beans>

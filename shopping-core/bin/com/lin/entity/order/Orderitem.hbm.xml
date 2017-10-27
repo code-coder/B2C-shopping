@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.lin.entity.order.Orderitem" table="orderitem" catalog="db_shop">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <many-to-one name="product" class="com.lin.entity.product.Productinfo" fetch="join" lazy="false">
+            <column name="productId" not-null="true" />
+        </many-to-one>
+        <many-to-one name="order" class="com.lin.entity.order.Order" fetch="select">
+            <column name="orderId" length="30" />
+        </many-to-one>
+        <property name="amount" type="java.lang.Integer">
+            <column name="amount" />
+        </property>
+        <property name="price" type="java.lang.Float">
+            <column name="price" />
+        </property>
+        <property name="grade" type="java.lang.String">
+            <column name="grade" length="10">
+                <comment>评分</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>

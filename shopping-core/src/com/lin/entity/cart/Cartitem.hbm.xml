@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.lin.entity.cart.Cartitem" table="cartitem" catalog="db_shop">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <many-to-one name="product" class="com.lin.entity.product.Productinfo" fetch="join">
+            <column name="productId" not-null="true" />
+        </many-to-one>
+        <property name="amount" type="java.lang.Integer">
+            <column name="amount" />
+        </property>
+        <property name="price" type="java.lang.Float">
+            <column name="price" />
+        </property>
+        <property name="joinTime" type="java.util.Date">
+            <column name="joinTime" length="19" />
+        </property>
+        <property name="status" type="java.lang.Integer">
+            <column name="status">
+                <comment>0在购物车 1已经购买 2移除购物车</comment>
+            </column>
+        </property>
+       <many-to-one name="cart" class="com.lin.entity.cart.Cart" fetch="select">
+            <column name="cartId"/>
+        </many-to-one>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,1732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shopping:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b281b199-0d19-4b77-9337-9fcabe898d35" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/BaseAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/HomeAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/consultation/ConsultationAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/customers/CartAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/customers/CustomerAction-customer_save-validation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/customers/CustomerAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/customers/ShoppingAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/interceptor/CustomerLoginInteceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/interceptor/ManagerLoginInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/manager/ManagerAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/order/OrderAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/product/CategoryAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/product/ProductAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/struts-admin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/struts-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/action/struts-front.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/BaseDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/DaoSupport$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/DaoSupport$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/DaoSupport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/account/AccountDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/account/AccountDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/account/TradingitemDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/account/TradingitemDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/cart/CartDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/cart/CartDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/cart/CartitemDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/cart/CartitemDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/customer/CustomerDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/customer/CustomerDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/customer/HeadPortraitDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/customer/HeadPortraitDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/customer/ShoppingAddressDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/customer/ShoppingAddressDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/manager/ManagerDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/manager/ManagerDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/order/OrderDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/order/OrderDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/order/OrderitemDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/order/OrderitemDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/product/CategoryDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/product/CategoryDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/product/ConsultationDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/product/ConsultationDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/product/ProductDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/product/ProductDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/product/ProductcategoryDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/product/ProductcategoryDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/product/SecondcategoryDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/product/SecondcategoryDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/product/UploadFileDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/dao/product/UploadFileDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/account/Account.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/account/Account.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/account/Tradingitem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/account/Tradingitem.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/cart/Cart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/cart/Cart.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/cart/Cartitem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/cart/Cartitem.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/customer/Customer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/customer/Customer.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/customer/HeadPortrait.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/customer/HeadPortrait.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/customer/ShoppingAddress.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/customer/ShoppingAddress.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/manager/Manager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/manager/Manager.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/order/Order.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/order/Order.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/order/Orderitem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/order/Orderitem.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/product/Category.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/product/Category.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/product/Consultation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/product/Consultation.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/product/Productcategory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/product/Productcategory.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/product/Productinfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/product/Productinfo.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/product/Secondcategory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/product/Secondcategory.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/product/Uploadfile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/entity/product/Uploadfile.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/model/PageModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/model/Password.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/model/Payment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/service/AdminService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/service/BaseService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/service/CustomerService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/service/Impl/AdminServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/service/Impl/CustomerServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/service/Impl/ShopServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/service/ShopService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/util/AppException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/util/GenericsUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/util/MD5Util.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/util/StringUitl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/util/db_shop.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/com/lin/util/filter/EncodingFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/struts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/classes/网站说明.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/antlr-2.7.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/asm-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/asm-commons-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/asm-tree-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/aspectjrt-1.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/aspectjweaver-1.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/c3p0-0.9.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/commons-beanutils-1.9.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/commons-digester-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/commons-fileupload-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/commons-lang-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/commons-lang3-3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/freemarker-2.3.23.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/hibernate3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/jta-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/junit-4.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/log4j-api-2.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/mybatis-3.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/mysql-connector-java-5.1.20-bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/ognl-3.1.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/servlet-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/slf4j-api-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-aop-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-beans-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-context-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-context-support-4.1.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-core-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-expression-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-jdbc-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-orm-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-security-cas-client-3.0.8.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-security-config-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-security-core-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-security-taglibs-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-security-web-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-tx-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-web-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/spring-webmvc-4.0.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/struts2-core-2.2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/struts2-spring-plugin-2.2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/werken-xpath-0.9.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/lib/xwork-core-2.2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/common/common.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/common/common_admin.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/common/footer.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/common/header.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/common/page.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/common/show_error.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/cart/addItemFailure.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/cart/addItemSuccess.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/cart/myCart.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/common/menu.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/common/myShopping_catalogue.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/customer_findPassword.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/customer_login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/customer_regist.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/customer_regist_success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/order/checkOrder.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/order/myOrder.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/order/orderDetails.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/order/pay/payForOrder.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/order/pay/pay_failure.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/order/pay/pay_success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/order/submitOrder_failure.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/account/account.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/account/modifyPayPassword.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/account/payPassword_modify_success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/account/recharge.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/account/recharge_success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/account/tradingRecord.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/address/modifyShoppingAddress.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/address/newShoppingAddress.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/address/shoppingAddress.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/info/modifyInfo.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/info/modifyPassword.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/info/myInfo.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/info/password_modify_success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/info/uploadHeadPortrait.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/customer/shopping/myShopping.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/category/category_add.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/category/category_add_success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/category/category_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/category/category_modify.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/category/category_query.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/category/productcategory_modify.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/category/secondcategory_modify.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/product/inputError.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/product/product_add.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/product/product_add_success.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/product/product_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/product/product_modify.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/categoryAndProduct/product/product_query.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/consultation/answerConsultation.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/consultation/answeredConsultation_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/consultation/modifyAnswer.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/consultation/unAnsweredConsultation_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/customer/customer_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/customer/customer_query.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/customer/customer_tradingRecord.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/customer/tradingRecord.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/manager_login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/manager_loginSuccess.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/manager_main.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/order/orderDetails.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/order/order_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/manager/order/order_query.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/shop/common/catalogue.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/shop/common/footer.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/shop/common/head.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/shop/common/menu.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/shop/home.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/shop/product/product_details.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/shop/product/product_list.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/pages/shop/product/product_model.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/dtree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/dtree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/base.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/cd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/folderopen.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/globe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/imgfolder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/join.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/joinbottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/minusbottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/musicfolder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/nolines_minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/nolines_plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/page.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/plusbottom.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/question.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/components/dtree/img/trash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/accordion-menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/orderconfirm.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/owl.carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/productviewgallery.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/tasp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/themecss/cpanel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/themecss/lib.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/themecss/so-categories.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/themecss/so-listing-tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/themecss/so_megamenu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/css/user-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/fonts/Amble-Regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/fonts/BebasNeue-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/fonts/weathericons-regular-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/headPortrait/default.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/banner1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/banner2-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/banner2-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/banner2-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/banner2-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/banner2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/banner3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/left-image-static.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/cms/menu_bg2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/colors/blue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/colors/brown.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/colors/green.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/content/payment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/feature/home-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/feature/home-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/feature/home-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/feature/home-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/flags/gb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/flags/lb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/logos/theme_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/category/automotive-motocrycle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/category/bags-holiday-supplies-gifts.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/category/electronic-cat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/category/electronics.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/category/health-beauty.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/category/jewelry-watches.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/category/smartphone-tablets.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/category/sports-outdoors.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/category/toys-hobbies.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/141.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/B10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/B5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/B9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/E1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/E2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/E3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/E3_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/E3_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/E4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/J4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/J5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/J6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/J9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/W1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/e11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/e12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/m1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/m2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/m3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/shop/product/w10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/slider/slider-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/slider/slider-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/demo/slider/slider-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/color/orange/policy_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/color/orange/policy_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/color/orange/policy_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/color/orange/policy_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/home3/ico-phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/arrow-slider-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/arrow-slider-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/collections-1-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/collections-2-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/collections-3-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/collections-4-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/collections-5-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/collections-6-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/ico-menu-parent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/ico-quicklink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/ico-slider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/icon_minicart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/next-prev-detail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/policy_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/policy_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/policy_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/icons/policy_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/lazy-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/image/theme/patterns/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/add_cart_failure.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/add_cart_success.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/admin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/arror.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/arrow-next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/arrow-prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/art.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/bg-upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/buy_now.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/c-arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/commenHeadPortrait.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/commstar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/delivery.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/doglogo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/down_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/gpluse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/icon_default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/index_17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/index_19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/index_button.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/load.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/nav_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/search_h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/slider_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/top_move.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/up_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/view_cart.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/images/welcome.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/Calendar3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/buy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/cart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/countdown/jquery.countdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/datetimepicker/bootstrap-datetimepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/datetimepicker/bootstrap-datetimepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/datetimepicker/moment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/dcjqaccordion/jquery.dcjqaccordion.2.8.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/jquery-2.2.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/jquery-accordion-menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/jquery-ui/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/owl-carousel/owl.carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/owl-carousel/owl.carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/themejs/addtocart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/themejs/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/themejs/cpanel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/themejs/libs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/themejs/so_megamenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/themejs/toppanel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/js/unveil/jquery.unveil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/manager/main/manager_mainframe.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/manager/main/tree.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/packsack1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/packsack10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/packsack11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/packsack12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/packsack2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/packsack3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/packsack4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/packsack5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/packsack6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/packsack7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/packsack8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/packsack9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/tent1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/tent2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/shopping_Web_exploded/upload/tent3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/shopping-core/bin/com/lin/util/db_shop.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/shopping/web/WEB-INF/web.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping-impl/bin/com/lin/dao/customer/CustomerDaoImpl.class" afterPath="$PROJECT_DIR$/shopping-impl/bin/com/lin/dao/customer/CustomerDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/com/lin/action/customers/CustomerAction.class" afterPath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/com/lin/action/customers/CustomerAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/com/lin/action/customers/ShoppingAction.class" afterPath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/com/lin/action/customers/ShoppingAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/com/lin/action/manager/ManagerAction.class" afterPath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/com/lin/action/manager/ManagerAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/com/lin/action/order/OrderAction.class" afterPath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/com/lin/action/order/OrderAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/com/lin/action/product/CategoryAction.class" afterPath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/com/lin/action/product/CategoryAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/com/lin/action/product/ProductAction.class" afterPath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/com/lin/action/product/ProductAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/网站说明.txt" afterPath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/网站说明.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/shopping/WebContent/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping/shopping.iml" afterPath="$PROJECT_DIR$/shopping/shopping.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping/src/applicationContext.xml" afterPath="$PROJECT_DIR$/shopping/src/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopping/src/网站说明.txt" afterPath="$PROJECT_DIR$/shopping/src/网站说明.txt" />
+    </list>
+    <ignored path="$PROJECT_DIR$/shopping/WebContent/WEB-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/shopping-core/bin/" />
+    <ignored path="$PROJECT_DIR$/shopping-impl/bin/" />
+    <ignored path="$PROJECT_DIR$/shopping-lib/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping/src/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shopping/WebContent/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping/WebContent/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts-admin.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping/src/com/lin/action/struts-admin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/account/Account.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/account/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-122">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/product/Category.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="83" lean-forward="false" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaoSupport.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/dao/DaoSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="25" />
+              <folding>
+                <marker date="1509077080000" expanded="true" signature="554:564" ph="/**...*/" />
+                <marker date="1509077080000" expanded="true" signature="5679:5684" ph="/**...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="网站说明.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping/src/网站说明.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopping/src/com/lin/action/HomeAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>db_shop</find>
+      <find>category</find>
+      <find>db_shopping</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>db_shopping</replace>
+      <replace>db_shop</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/shopping-core/src/com/lin/entity</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/dao/DaoSupport.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/dao/cart/CartDao.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/util/MD5Util.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/util/StringUitl.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/dao/account/AccountDao.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/dao/customer/CustomerDao.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/dao/customer/ShoppingAddressDao.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/dao/product/ConsultationDao.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/dao/product/ProductDao.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/model/PageModel.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/service/ShopService.java" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/util/GenericsUtils.java" />
+        <option value="$PROJECT_DIR$/shopping-impl/src/com/lin/dao/customer/CustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/shopping-impl/src/com/lin/dao/manager/ManagerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/shopping-impl/src/com/lin/dao/product/ConsultationDaoImpl.java" />
+        <option value="$PROJECT_DIR$/shopping-impl/src/com/lin/dao/product/ProductDaoImpl.java" />
+        <option value="$PROJECT_DIR$/shopping-impl/src/com/lin/service/Impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopping-impl/src/com/lin/service/Impl/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopping-impl/src/com/lin/service/Impl/ShopServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopping/src/网站说明.txt" />
+        <option value="$PROJECT_DIR$/shopping-core/src/com/lin/entity/account/Account.hbm.xml" />
+        <option value="$PROJECT_DIR$/shopping/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/shopping/WebContent/WEB-INF/web.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaeeView">
+    <option name="frameworksView" value="false" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="B2C-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="B2C-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="B2C-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.shopping">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_B2C-shopping_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62162" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="shopping" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shopping:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/shopping" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_B2C-shopping" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62023" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shopping:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringBeansView">
+    <option name="showImplicitBeans" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b281b199-0d19-4b77-9337-9fcabe898d35" name="Default" comment="" />
+      <created>1509068922129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509068922129</updated>
+      <workItem from="1509068983936" duration="3435000" />
+      <workItem from="1509081966167" duration="3502000" />
+    </task>
+    <task id="LOCAL-00001" summary="编码有点问题 以前用得gb2312">
+      <created>1509082136365</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509082136365</updated>
+    </task>
+    <task id="LOCAL-00002" summary="编码有点问题 以前用得gb2312">
+      <created>1509082974576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1509082974576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6937000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39772728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4474432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.4943182" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5056818" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="编码有点问题 以前用得gb2312" />
+    <option name="LAST_COMMIT_MESSAGE" value="编码有点问题 以前用得gb2312" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/dao/product/UploadFileDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/account/Tradingitem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/cart/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/cart/Cartitem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/customer/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/customer/HeadPortrait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/customer/ShoppingAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/manager/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/model/PageModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1509082425000" expanded="true" signature="730:747" ph="/**...*/" />
+            <marker date="1509082425000" expanded="false" signature="775:780" ph=" { " />
+            <marker date="1509082425000" expanded="false" signature="828:831" ph=" }" />
+            <marker date="1509082425000" expanded="false" signature="861:866" ph=" { " />
+            <marker date="1509082425000" expanded="false" signature="886:889" ph=" }" />
+            <marker date="1509082425000" expanded="false" signature="936:941" ph=" { " />
+            <marker date="1509082425000" expanded="false" signature="974:977" ph=" }" />
+            <marker date="1509082425000" expanded="false" signature="1003:1008" ph=" { " />
+            <marker date="1509082425000" expanded="false" signature="1020:1023" ph=" }" />
+            <marker date="1509082425000" expanded="false" signature="1058:1063" ph=" { " />
+            <marker date="1509082425000" expanded="false" signature="1080:1083" ph=" }" />
+            <marker date="1509082425000" expanded="false" signature="1109:1114" ph=" { " />
+            <marker date="1509082425000" expanded="false" signature="1130:1133" ph=" }" />
+            <marker date="1509082425000" expanded="false" signature="1172:1177" ph=" { " />
+            <marker date="1509082425000" expanded="false" signature="1202:1205" ph=" }" />
+            <marker date="1509082425000" expanded="false" signature="1229:1234" ph=" { " />
+            <marker date="1509082425000" expanded="false" signature="1248:1251" ph=" }" />
+            <marker date="1509082425000" expanded="false" signature="1286:1291" ph=" { " />
+            <marker date="1509082425000" expanded="false" signature="1312:1315" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/model/Password.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/model/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <marker date="1509082461000" expanded="true" signature="400:407" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <marker date="1509082521000" expanded="true" signature="499:506" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/service/ShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <marker date="1509082533000" expanded="true" signature="344:351" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/util/filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/util/AppException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/util/GenericsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1509082566000" expanded="true" signature="576:581" ph="/**...*/" />
+            <marker date="1509082566000" expanded="false" signature="585:614" ph="/rawtypes/" />
+            <marker date="1509082566000" expanded="false" signature="664:668" ph=" { " />
+            <marker date="1509082566000" expanded="false" signature="697:700" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/util/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/util/StringUitl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <marker date="1509077545000" expanded="true" signature="1287:1292" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/customer/CustomerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/account/TradingitemDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/account/AccountDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/cart/CartDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/cart/CartitemDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/customer/HeadPortraitDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/customer/ShoppingAddressDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/manager/ManagerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/order/OrderDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/order/OrderitemDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/product/CategoryDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/product/ConsultationDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <marker date="1509082834000" expanded="true" signature="308:325" ph="/**...*/" />
+            <marker date="1509082834000" expanded="true" signature="382:681" ph="{...}" />
+            <marker date="1509082834000" expanded="true" signature="747:1052" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/product/ProductcategoryDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/product/ProductDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <marker date="1509082849000" expanded="true" signature="296:313" ph="/**...*/" />
+            <marker date="1509082849000" expanded="true" signature="364:546" ph="{...}" />
+            <marker date="1509082849000" expanded="true" signature="606:863" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/product/UploadFileDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/service/Impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <marker date="1509082874000" expanded="true" signature="953:960" ph="/**...*/" />
+            <marker date="1509082874000" expanded="true" signature="10201:10206" ph="/**...*/" />
+            <marker date="1509082874000" expanded="true" signature="10281:10580" ph="{...}" />
+            <marker date="1509082874000" expanded="true" signature="10654:10705" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/service/Impl/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <marker date="1509082886000" expanded="true" signature="1119:1126" ph="/**...*/" />
+            <marker date="1509082886000" expanded="true" signature="18202:18232" ph="/**...*/" />
+            <marker date="1509082886000" expanded="true" signature="18300:18584" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/service/Impl/ShopServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <marker date="1509082898000" expanded="true" signature="602:609" ph="/**...*/" />
+            <marker date="1509082898000" expanded="true" signature="10333:10338" ph="/**...*/" />
+            <marker date="1509082898000" expanded="true" signature="10453:10623" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/product/SecondcategoryDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/src/com/lin/action/HomeAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/src/网站说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/dao/DaoSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="25" />
+          <folding>
+            <marker date="1509077080000" expanded="true" signature="554:564" ph="/**...*/" />
+            <marker date="1509077080000" expanded="true" signature="5679:5684" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/src/com/lin/action/struts-admin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/account/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/product/Category.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="83" lean-forward="false" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping-core/src/com/lin/entity/account/Account.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/WebContent/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopping/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>shopping:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|shopping</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

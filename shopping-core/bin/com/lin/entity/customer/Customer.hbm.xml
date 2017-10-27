@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.lin.entity.customer.Customer" table="customer" catalog="db_shop">
+        <id name="id" type="java.lang.String">
+            <column name="id" length="30"/>
+            <generator class="assigned"></generator>
+        </id>
+        <property name="username" type="java.lang.String">
+            <column name="username" length="50" not-null="true" unique="true" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="password" length="50" not-null="true" />
+        </property>
+        <property name="realname" type="java.lang.String">
+            <column name="realname" length="20" />
+        </property>
+        <property name="sex" type="java.lang.String">
+            <column name="sex"/>
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="address" length="200" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="email" length="50" />
+        </property>
+        <property name="mobile" type="java.lang.String">
+            <column name="mobile" length="11" />
+        </property>
+        <property name="balance" type="java.lang.Float">
+            <column name="balance" precision="12" scale="0" />
+        </property>
+        <property name="forbidden" type="java.lang.Boolean">
+            <column name="forbidden"/>
+        </property>
+        <property name="lastLogin" type="java.util.Date">
+            <column name="lastLogin" length="19" />
+        </property>
+        <property name="registerTime" type="java.util.Date">
+            <column name="registerTime" length="19" />
+        </property>
+        <many-to-one name="cart" class="com.lin.entity.cart.Cart" fetch="join"  cascade="all" >
+            <column name="cartId" unique="true" />
+        </many-to-one>
+        <many-to-one name="account" class="com.lin.entity.account.Account" fetch="join" cascade="all" >
+            <column name="accountId" unique="true" />
+        </many-to-one>
+       <many-to-one name="headPortrait" class="com.lin.entity.customer.HeadPortrait" fetch="join"  cascade="all" lazy="false">
+            <column name="headPortraitId" unique="true" />
+        </many-to-one>
+        <set name="orders" inverse="true" fetch="join" >
+            <key>
+                <column name="customerId" />
+            </key>
+            <one-to-many class="com.lin.entity.order.Order"/>
+        </set>
+        <set name="shoppingAddresses" inverse="true" fetch="join" cascade="all">
+            <key>
+                <column name="customerId" />
+            </key>
+            <one-to-many class="com.lin.entity.customer.ShoppingAddress"/>
+        </set>
+        <set name="consultations" inverse="true">
+            <key>
+                <column name="customerId" />
+            </key>
+            <one-to-many class="com.lin.entity.product.Consultation" />
+        </set>
+    </class>
+</hibernate-mapping>

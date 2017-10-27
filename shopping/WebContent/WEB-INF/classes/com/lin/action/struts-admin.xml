@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	
+	<package name="MyShop-manager" extends="MyShop-default">
+		<!-- 配置拦截器 -->
+		<interceptors>
+			<!-- 验证用户登录的拦截器 -->
+			<interceptor name="loginInterceptor" class="com.lin.action.interceptor.ManagerLoginInterceptor"/>
+			<interceptor-stack name="managerDefaultStack">
+				<interceptor-ref name="loginInterceptor"/>
+    			<interceptor-ref name="defaultStack"/>
+			</interceptor-stack>
+		</interceptors>
+	</package>
+	
+	<package name="MyShop.manager" namespace="/manager" extends="MyShop-default">
+		<action name="manager_*" method="{1}" class="managerAction">
+			<result name="loginSuccess">/WEB-INF/pages/manager/manager_loginSuccess.jsp</result>
+		</action>
+	</package>
+	
+	<package name="MyShop.manager.main" namespace="/manager/main" extends="MyShop-manager">
+	
+		<action name="manager_main_*" method="{1}" class="managerAction">
+			<result name="home">/WEB-INF/pages/manager/manager_main.jsp</result>
+			<interceptor-ref name="managerDefaultStack"/>
+		</action>
+	</package>
+	
+	<package name="MyShop.manager.customer" namespace="/manager/customer" extends="MyShop-manager">
+		<action name="customer_*" method="{1}" class="customerAction">
+			<result name="list">/WEB-INF/pages/manager/customer/customer_list.jsp</result>
+			<result name="query">/WEB-INF/pages/manager/customer/customer_query.jsp</result>
+			<result name="tradingRecord">/WEB-INF/pages/manager/customer/tradingRecord.jsp</result>
+			<interceptor-ref name="managerDefaultStack"/>
+		</action>
+	</package>
+	
+	<package name="MyShop.manager.product" namespace="/manager/product" extends="MyShop-manager">
+		<action name="category_*" method="{1}" class="categoryAction">
+			<result name="list">/WEB-INF/pages/manager/categoryAndProduct/category/category_list.jsp</result>
+			<result name="query">/WEB-INF/pages/manager/categoryAndProduct/category/category_query.jsp</result>
+			<result name="input">/WEB-INF/pages/manager/categoryAndProduct/category/category_add.jsp</result>
+			<result name="modify">/WEB-INF/pages/manager/categoryAndProduct/category/category_modify.jsp</result>
+			<result name="secondcategoryModify">/WEB-INF/pages/manager/categoryAndProduct/category/secondcategory_modify.jsp</result>
+			<result name="productcategoryModify">/WEB-INF/pages/manager/categoryAndProduct/category/productcategory_modify.jsp</result>
+			<result name="modify_success">/WEB-INF/pages/manager/categoryAndProduct/category/category_modify_success.jsp</result>
+			<result name="add_success">/WEB-INF/pages/manager/categoryAndProduct/category/category_add_success.jsp</result>
+			<result name="products">/WEB-INF/pages/manager/categoryAndProduct/category/categorysProduct_list.jsp</result>
+			<result name="modifyProduct">/WEB-INF/pages/manager/categoryAndProduct/category/categorysProduct_modify.jsp</result>
+			<interceptor-ref name="managerDefaultStack"/>
+		</action>
+		
+		<action name="product_*" method="{1}" class="productAction">
+			<result name="list">/WEB-INF/pages/manager/categoryAndProduct/product/product_list.jsp</result>
+			<result name="query">/WEB-INF/pages/manager/categoryAndProduct/product/product_query.jsp</result>
+			<result name="add">/WEB-INF/pages/manager/categoryAndProduct/product/product_add.jsp</result>
+			<result name="modify">/WEB-INF/pages/manager/categoryAndProduct/product/product_modify.jsp</result>
+			<result name="input">/WEB-INF/pages/manager/categoryAndProduct/product/inputError.jsp</result>
+			<result name="add_success">/WEB-INF/pages/manager/categoryAndProduct/product/product_add_success.jsp</result>
+			<interceptor-ref name="managerDefaultStack"/>
+		</action>
+	</package>
+	
+	<package name="MyShop.manager.order" namespace="/manager/order" extends="MyShop-manager">
+		<action name="order_*" method="{1}" class="orderAction">
+			<result name="list">/WEB-INF/pages/manager/order/order_list.jsp</result>
+			<result name="query">/WEB-INF/pages/manager/order/order_query.jsp</result>
+			<result name="orderDetails">/WEB-INF/pages/manager/order/orderDetails.jsp</result>
+			<interceptor-ref name="managerDefaultStack"/>
+		</action>
+	</package>
+	
+	<package name="MyShop.manager.consultation" namespace="/manager/consultation" extends="MyShop-manager">
+		<action name="consultation_*" method="{1}" class="consultationAction">
+			<result name="unansweredConsultation_list">/WEB-INF/pages/manager/consultation/unAnsweredConsultation_list.jsp</result>
+			<result name="answeredConsultation_list">/WEB-INF/pages/manager/consultation/answeredConsultation_list.jsp</result>
+			<result name="answer">/WEB-INF/pages/manager/consultation/answerConsultation.jsp</result>
+			<interceptor-ref name="managerDefaultStack"/>
+		</action>
+	</package>
+
+</struts>

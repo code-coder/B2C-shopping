@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="shopping">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="shopping-core.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/shopping-core/shopping-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="shopping-impl.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/shopping-impl/shopping-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/shopping/build/classes"/>
+        <property name="context-root" value="shopping"/>
+    </wb-module>
+</project-modules>

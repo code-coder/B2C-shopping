@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- 前台登录 -->
+	<package name="MyShop-front" extends="MyShop-default">
+		<!-- 配置拦截器 -->
+		<interceptors>
+			<!-- 验证用户登录的拦截器 -->
+			<interceptor name="loginInterceptor"
+				class="com.lin.action.interceptor.CustomerLoginInteceptor" />
+			<interceptor-stack name="customerDefaultStack">
+				<interceptor-ref name="loginInterceptor" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+			<interceptor-stack name="myStack">
+				<interceptor-ref name="token" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="myStack" />
+	</package>
+
+	<package name="MyShop.home" extends="struts-default">
+
+		<action name="home" class="homeAction">
+			<result>/WEB-INF/pages/shop/home.jsp</result>
+		</action>
+	</package>
+
+	<package name="MyShop.customer" namespace="/customer" extends="MyShop-default">
+		<action name="customer_*" method="{1}" class="customerAction">
+			<result name="input">/WEB-INF/pages/customer/customer_regist.jsp
+			</result>
+			<result name="findPassword">/WEB-INF/pages/customer/customer_findPassword.jsp</result>
+			<result name="regist_success">/WEB-INF/pages/customer/customer_regist_success.jsp
+			</result>
+		</action>
+	</package>
+
+	<package name="MyShop.customer.cart" namespace="/customer/cart"
+		extends="MyShop-front">
+		<action name="customer_cart_*" method="{1}" class="cartAction">
+			<result name="myCart">/WEB-INF/pages/customer/cart/myCart.jsp</result>
+			<result name="addItem_success">/WEB-INF/pages/customer/cart/addItemSuccess.jsp</result>
+			<result name="addItem_failue">/WEB-INF/pages/customer/cart/addItemFailure.jsp
+			</result>
+			<interceptor-ref name="customerDefaultStack" />
+		</action>
+	</package>
+
+	<package name="MyShop.customer.shopping" namespace="/customer/shopping"
+		extends="MyShop-front">
+		<action name="customer_shopping_*" method="{1}" class="shoppingAction">
+			<result name="myShopping">/WEB-INF/pages/customer/shopping/myShopping.jsp
+			</result>
+			<result name="modifyCutomserInfo">/WEB-INF/pages/customer/shopping/info/myInfo.jsp
+			</result>
+			<result name="modifyCutomserPassword">/WEB-INF/pages/customer/shopping/info/modifyPassword.jsp
+			</result>
+			<result name="mddifyPasswordSuccess">/WEB-INF/pages/customer/shopping/info/password_modify_success.jsp
+			</result>
+			<result name="modifyCutomserHeadPortrait">/WEB-INF/pages/customer/shopping/info/uploadHeadPortrait.jsp
+			</result>
+			<result name="account">/WEB-INF/pages/customer/shopping/account/account.jsp
+			</result>
+			<result name="recharge">/WEB-INF/pages/customer/shopping/account/recharge.jsp
+			</result>
+			<result name="recharge_success">/WEB-INF/pages/customer/shopping/account/recharge_success.jsp
+			</result>
+			<result name="modifyPayPassword">/WEB-INF/pages/customer/shopping/account/modifyPayPassword.jsp
+			</result>
+			<result name="mddifyPayPasswordSuccess">/WEB-INF/pages/customer/shopping/account/payPassword_modify_success.jsp
+			</result>
+			<result name="input">/WEB-INF/pages/customer/shopping/account/recharge.jsp
+			</result>
+			<!-- <result name="tradingRecord">/WEB-INF/pages/customer/shopping/account/tradingRecord.jsp
+			</result> -->
+			<result name="shoppingAddress">/WEB-INF/pages/customer/shopping/address/shoppingAddress.jsp
+			</result>
+			<result name="modifyShoppingAddress">/WEB-INF/pages/customer/shopping/address/modifyShoppingAddress.jsp
+			</result>
+
+			<interceptor-ref name="customerDefaultStack" />
+		</action>
+	</package>
+
+	<package name="MyShop.customer.order" namespace="/customer/order"
+		extends="MyShop-front">
+		<action name="customer_order_*" method="{1}" class="orderAction">
+			<exception-mapping result="submitError"
+				exception="java.lang.NullPointerException"></exception-mapping>
+			<result name="checkOrder">/WEB-INF/pages/customer/order/checkOrder.jsp
+			</result>
+			<result name="newShoppingAddress">/WEB-INF/pages/customer/shopping/address/newShoppingAddress.jsp
+			</result>
+			<result name="modifyShoppingAddress">/WEB-INF/pages/customer/shopping/address/modifyShoppingAddress.jsp
+			</result>
+			<result name="pay">/WEB-INF/pages/customer/order/pay/payForOrder.jsp
+			</result>
+			<result name="paySuccess">/WEB-INF/pages/customer/order/pay/pay_success.jsp
+			</result>
+			<result name="payFailure">/WEB-INF/pages/customer/order/pay/pay_failure.jsp
+			</result>
+			<result name="myOrder">/WEB-INF/pages/customer/order/myOrder.jsp
+			</result>
+			<result name="orderDetails">/WEB-INF/pages/customer/order/orderDetails.jsp
+			</result>
+			<result name="submitError">/WEB-INF/pages/customer/order/submitOrder_failure.jsp
+			</result>
+			<result name="checkOrderFromCart" type="redirectAction">customer_order_checkOrderFromCart.action</result>
+			<result name="checkOrderFromDirectBuy" type="redirectAction">customer_order_checkOrderFromDirectBuy.action</result>
+			<interceptor-ref name="customerDefaultStack" />
+		</action>
+	</package>
+
+	<package name="MyShop.product" namespace="/product" extends="MyShop-default">
+		<action name="product_*" method="{1}" class="productAction">
+			<result name="input">/index.jsp</result>
+			<result name="list">/WEB-INF/pages/shop/product/product_list.jsp
+			</result>
+			<result name="select">/WEB-INF/pages/shop/product/product_details.jsp
+			</result>
+			<result name="model">/WEB-INF/pages/shop/product/product_model.jsp</result>
+		</action>
+	</package>
+
+</struts>

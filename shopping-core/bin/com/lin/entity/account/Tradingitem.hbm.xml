@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.lin.entity.account.Tradingitem" table="tradingitem" catalog="db_shop">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="increment" />
+        </id>
+        <property name="tradingTime" type="java.util.Date">
+            <column name="tradingTime" />
+        </property>
+        <property name="money" type="java.lang.Float">
+            <column name="money" />
+        </property>
+        <property name="tradingDetails" type="java.lang.String">
+            <column name="tradingDetails" length="100" />
+        </property>
+       <many-to-one name="account" class="com.lin.entity.account.Account" fetch="select">
+            <column name="accountId"/>
+        </many-to-one>
+        <property name="status" type="java.lang.Integer">
+            <column name="status" />
+        </property>
+        <property name="remark" type="java.lang.String">
+            <column name="remark" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>

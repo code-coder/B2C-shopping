@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shopping/shopping.iml" filepath="$PROJECT_DIR$/shopping/shopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-core/shopping-core.iml" filepath="$PROJECT_DIR$/shopping-core/shopping-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-impl/shopping-impl.iml" filepath="$PROJECT_DIR$/shopping-impl/shopping-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-lib/shopping-lib.iml" filepath="$PROJECT_DIR$/shopping-lib/shopping-lib.iml" />
+    </modules>
+  </component>
+</project>

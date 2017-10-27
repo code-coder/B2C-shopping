@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/dao/BaseDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/dao/DaoSupport.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/dao/account/AccountDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/dao/cart/CartDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/dao/customer/CustomerDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/dao/customer/ShoppingAddressDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/dao/product/ConsultationDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/dao/product/ProductDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/model/PageModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/service/AdminService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/service/BaseService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/service/CustomerService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/service/ShopService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/util/GenericsUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/util/MD5Util.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-core/src/com/lin/util/StringUitl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/customer/CustomerDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/manager/ManagerDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/product/ConsultationDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-impl/src/com/lin/dao/product/ProductDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-impl/src/com/lin/service/Impl/AdminServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-impl/src/com/lin/service/Impl/CustomerServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-impl/src/com/lin/service/Impl/ShopServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping/src/网站说明.txt" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

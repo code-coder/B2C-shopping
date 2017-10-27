@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/pages/customer/common/menu.jsp=UTF-8
+encoding//WebContent/WEB-INF/pages/customer/customer_login.jsp=UTF-8
+encoding//WebContent/WEB-INF/pages/customer/order/checkOrder.jsp=UTF-8
+encoding//WebContent/WEB-INF/pages/shop/home.jsp=UTF-8
+encoding//WebContent/WEB-INF/pages/shop/product/product_model.jsp=UTF-8
+encoding//WebContent/css=UTF-8
+encoding//WebContent/css/style.css=UTF-8
+encoding//WebContent/js/cart.js=UTF-8
+encoding//WebContent/js/themejs/addtocart.js=UTF-8
